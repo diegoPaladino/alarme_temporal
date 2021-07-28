@@ -47,3 +47,5 @@ schedule.every(296).seconds.do(reposicao)
 while 1:
     schedule.run_pending()
     t.sleep(1)
+    
+    # moment
