@@ -1,0 +1,26 @@
+TUTORIAL:
+VIDEO NO YOUTUBE:
+Instalando o Git no Visual Studio Code [PASSO A PASSO ATE O GITHUB]
+https://www.youtube.com/watch?v=_dgBxVOBKzs&t=88s
+
+MOSTRANDO PASTAS OCULTAS NO WINDOWS:
+https://support.microsoft.com/pt-br/help/4028316/windows-view-hidden-files-and-folders-in-windows-10
+
+
+local do arquivo no PC:
+C:\Users\diego\.ssh
+
+--
+ARQUIVO (CHAVE):
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDr09a6i7pCPAc8DZz3PWIf0lCWJ+6PckrQgHd69D0dwW9jzRtsNOF5RZO/VvV840fLE5pZXYZpEuwEHQCzQtcKCgwXwcYsQQ+k+UppwmuHvyFiKrizrpJCBH+GdD3Pb2RWqugj9MUJlCqTfxUqr0P4YYhDsJMCcQ8Z/xAn9845qnUSSsBI47oYpnQquxbOp5oXyaANh8wOf1ypeUe6ltrWZOxRnjk1vLByMhl75YaR/Q7+qpS3XXQeqD3tecJsTpTCStkDEjNq6f8ysj4JgayGzQkHrjKGmItwJ+E0IZCHdXcZ8CGSzqGr7vr+YxxllxuhycmrKkxuTdmlw2od2lYFYLkE+8eENQLVZW412XiEnujlPKfViI8t6A8Tsl2EmymliXcAl/aEqIdFvR2M+6f+Ql1ZpbRxMUfElu0+oorrWvpThDOHTG5JuBVLsht27oNwKkRv1Rkh7x+pWC+nLyVeKBQvTFLThN4Tc/WHMaFI6ZTbPokSJk5SYR5uSTR0nbdc1vJkFMQjeJi3ZJk/HVRFBUerPvb5cTrHiqXjdb9vi32bv/0W/xxbj7T+JiL/D7UR0MyHoI7IkwRlZNv+6qNDsl3OHaIt8f/qEgeRoHzdPcwyRbUwHbMib74S1OcaTTxI4B9JyHUwgpBWBc0djvgSsGszHyHJVkY9shVUpuho3w== diegopaladinofoto@gmail.com
+
+--
+
+links git suporte:
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+https://docs.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys
+https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+https://docs.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys
+https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent
+https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account

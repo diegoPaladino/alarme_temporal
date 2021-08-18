@@ -5,14 +5,6 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import matplotlib.pyplot as plt
 
 
-
-# from wordcloud import
-
-
-
-
-
-
 # codding
 
 consumer_key = 'MRJ6x2T53GY7pGkU30MSqHdzs'
@@ -25,10 +17,24 @@ autorizacao = tw.OAuthHandler(consumer_key, consumer_secret)
 autorizacao.set_access_token(access_token, access_token_secret)
 api = tw.API(autorizacao)
 
+# capturando os dados
 
-places = api.geo_search(query="BRAZIL",granularity="country")
-place_id = places[0].id
-tweets = api.search(q="place:%s" % place_id)
+procura = tw.Cursor(api.search,lang="pt")
 
 
-meus_tweets = api.geo_id()
+# tentativa de uso do matplotlib
+# meu_stopwords = set(STOPWORDS)
+# meu_stopwords.update(['a','as','e','o','os','meu','meus','minha','minhas','seu','seus','sua','suas','tua','tuas','nossa','nossas','da','da','das','de','do','em','https','é','t','co','der','000011','esse','que','uma','na','ou','rt',])
+# minha_nuvem = WordCloud(stopwords=meu_stopwords, background_color='black', width=800, height=800).generate(meus_tweets)
+
+a = tw.loc[3].to_string()
+figura, eixo = plt.subplots(figsize=(8,8))
+plt.imshow(procura)
+# plt.axis("off")
+plt.show()
+
+# places = api.geo_search(query="BRAZIL",granularity="country")
+# place_id = places[0].id
+# tweets = api.search(q="place:%s" % place_id)
+
+
